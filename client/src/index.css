@@ -1,0 +1,43 @@
+.submit-btn,
+.update-btn,
+.search-btn {
+  background-color: rgb(75, 75, 254);
+}
+
+.submit-btn:hover,
+.update-btn:hover,
+.search-btn:hover {
+  background-color: rgb(50, 50, 169);
+}
+
+.delete-btn {
+  background-color: red;
+}
+
+.delete-btn:hover {
+  background-color: rgb(189, 4, 4);
+}
+
+button {
+  background-color: gray;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(93, 92, 92);
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  background-color: #f0f0f0;
+  padding: 0 32px 16px 32px;
+  margin-bottom: 16px;
+  text-align: center;
+}
